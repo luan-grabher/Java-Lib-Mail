@@ -81,7 +81,7 @@ public class Gmail {
 
     }
 
-    public boolean enviaZac(String to, String subject, String htmlMessage) {
+    public boolean enviaZAC(String to, String subject, String htmlMessage) {
         String hello;
         int hour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY);
 
